@@ -8,6 +8,7 @@ The AutoCorrect feature in Microsoft Office includes built-in corrections for a 
 ### Prerequisites
 
 Microsoft Office (Windows version)
+
 The AutoCorrect.zip backup macro from https://wordmvp.com/FAQs/Customization/ExportAutocorrect.htm
 
 NOTE: AutoCorrect works in all Office applications including OneNote and you can add items to AutoCorrect manually (or remove them) in any Office applicaiton using the AutoCorrect dialog. AutoCorrect entries added in one Office application will be available in other Office applications as soon as you open that application (if it was open when you made the AutoCorrect addition, you have to close it. In early and more recent versions of Word you can also add corrections to AutoCorrect by clicking on a mis-spelled word and choosing Add to AutoCorrect from the context menu (this option was removed and then returned to Word). But the only way that I know of to import AutoCorrect entries in bulk is with a Word macro, so Autocorrn should still be useful to you even if you only use Excel, PowerPoint or Outlook but not Word itself.
