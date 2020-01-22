@@ -3,7 +3,7 @@ Kickstart using Office AutoCorrect for shortcuts when typing with this collectio
 
 ## What is this?
 
-The AutoCorrect feature in Microsoft Office includes built-in corrections for a numebr of common mis-spellings as well as abbreviations for typing some characters like the copyright symbol, but you can add your own corrections and abberviations. Over many years of taking notes and transcribing interview responses, I have added hundreds of shortcuts for long words or product names with odd capitalisation or word separation that I need to get right, and thousands of corrections for typos that I make when typing fast. I copy these from PC to PC every time I switch machines, and thought they might be useful to other people. "corrn" is my abbreviation of "correction".
+The AutoCorrect feature in Microsoft Office includes built-in corrections for a numebr of common mis-spellings as well as abbreviations for typing some characters like the copyright symbol, but you can add your own corrections and abberviations. Over many years of taking notes and transcribing interview responses, I have added hundreds of shortcuts for long words or product names with odd capitalisation or word separation that I need to get right, and thousands of corrections for typos that I make when typing fast. I copy these from PC to PC every time I switch machines (you can read more about how I do that here (https://www.zdnet.com/article/office-365-tip-using-add-to-autocorrect-to-make-you-more-productive/), and thought they might be useful to other people. "corrn" is my abbreviation of "correction".
 
 ### Prerequisites
 
