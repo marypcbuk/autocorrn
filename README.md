@@ -41,7 +41,7 @@ At this point, I don't have a process for accepting new entries for Autocorrn: i
 
 ## Versioning
 
-TBD - I am still adding new abbreviations and corrections to AutoCorrect and will probably export a new set once a year
+TBD - I am still adding new abbreviations and corrections to AutoCorrect and will probably export a new set once a year (for the last three years I've exported a backup every January).
 
 ## Authors
 
