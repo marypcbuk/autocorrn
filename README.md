@@ -18,18 +18,16 @@ NOTE: AutoCorrect works in all Office applications including OneNote and you can
 WARNING: Office macros are often used to spread malware. You will probably need to enable macros to use the AutoCorrect macro and you should always be cautious about downloading and running macros.
 
 ### Installing
-Download the Autocorrn .DOC file for your proofing language.
+Download the Autocorrn .docx file for your proofing language.
 
 Run the AutoCorrect macro. Choose "Backup" and save your existing AutoCorrect settings.
-**If you have entered your own AutoCorrect options and want to keep them** open the Autocorrn .DOC file and copy in your own word pairs from the backup document manually, in the correct alphabetical order. Save the .DOC file.
+**If you have entered your own AutoCorrect options and want to keep them** open the Autocorrn .docx file and copy in your own word pairs from the backup document manually, in the correct alphabetical order. Save the .docx file.
 
-Run the AutoCorrect macro. Choose "Restore" and browse to the Autocorrn .DOC file. **This will replace all existing AutoCorrect options** but it does include the default Microsoft AutoCorrect options.
+Run the AutoCorrect macro. Choose "Restore" and browse to the Autocorrn .docx file. **This will replace all existing AutoCorrect options** but it does include the default Microsoft AutoCorrect options. Office stores different AutoCorrect items for each proofing language installed but so far I have only been able to export from my default proofing language, UK English. The US English set of shortcuts and corrections has been edited to remove as many UK spelling variations as I could find but it oes not include any default US AutoCorrect entries that are not in the UK default. Whichever Autocorrn file you pick, it will replace all existing AutoCorrect options, so US users will definitely want to make sure to take a backup first and manually copy in any missing US entries.
 
-Word will open, showing the Autocorrn .DOC file and the window and status bar will probably flash repeatedly as the AutoCorrect options are added. When you next create a new document, the Autocorrn shortcuts like "nw" for "network", "perf" for "performance" and "defn" for "definition" will work.
+Word will open and the window and status bar will probably flash repeatedly as the AutoCorrect options are added. When you next create a new document, the Autocorrn shortcuts like "nw" for "network", "perf" for "performance" and "defn" for "definition" will work.
 
 ## Deployment
-Office stores different AutoCorrect items for each proofing language installed. The UK English set of shortcuts and corrections is much larger but - assuming the spelling is the same - you can copy entries into another AutoCorrect backup to add them under another proofing langauge. (I plan to add many of the UK English shortcuts and corrections to the US English file.)
-
 If you don't like a specific AutoCorrect, use Ctrl-Z to undo it. If you don't like having Autocorrn at all, use the macro to restore the backup you took before adding the Autocorrn items. 
 
 ## Abbreviation tips
@@ -37,7 +35,9 @@ A lot of the abbreviations are two letters: "sw" for software, "hw" for "hardwar
 
 ## Contributing
 
-At this point, I don't have a process for accepting new entries for Autocorrn: if anyone is interesting in getting involved to help me do that, please get in touch. But I've only created AutoCorrect entries in UK and US English: if you have a set of AutoCorrect entries in another proofing language, I'd be happy to add them here or link to them.
+At this point, I don't have a process for accepting individual new entries for Autocorrn: if anyone is interesting in getting involved to help me do that in the long term, please get in touch. 
+I'm looking for someone with a US English install of Office and no custom AutoCorrect options to run the AutoCorrect macro and take a backup so I can add those into the US English Autocorrn file so users don't have to do that manually.
+I've only created AutoCorrect entries in UK and US English: if you have a set of AutoCorrect entries in another proofing language, I'd be happy to add them here or link to them.
 
 ## Versioning
 
