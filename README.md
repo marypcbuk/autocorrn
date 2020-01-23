@@ -7,9 +7,11 @@ The AutoCorrect feature in Microsoft Office includes built-in corrections for a 
 
 ### Prerequisites
 
-Microsoft Office (Windows version)
+Microsoft Office
 
 The AutoCorrect.zip backup macro from https://wordmvp.com/FAQs/Customization/ExportAutocorrect.htm
+
+(I have seen reports that this macro works on Macs but have so far only used the macro with Windows versions of Office myself; Mac users who would prefer to write their own macro may want to investigate this macro code (https://answers.microsoft.com/en-us/msoffice/forum/msoffice_word-mso_mac/how-to-back-up-autocorrect/89bdec87-a9f4-4408-bbb8-723e886fdc45?auth=1) which should work in a similar fashion).
 
 NOTE: AutoCorrect works in all Office applications including OneNote and you can add items to AutoCorrect manually (or remove them) in any Office applicaiton using the AutoCorrect dialog. AutoCorrect entries added in one Office application will be available in other Office applications as soon as you open that application (if it was open when you made the AutoCorrect addition, you have to close it. In early and more recent versions of Word you can also add corrections to AutoCorrect by clicking on a mis-spelled word and choosing Add to AutoCorrect from the context menu (this option was removed and then returned to Word). But the only way that I know of to import AutoCorrect entries in bulk is with a Word macro, so Autocorrn should still be useful to you even if you only use Excel, PowerPoint or Outlook but not Word itself.
 
@@ -19,35 +21,32 @@ WARNING: Office macros are often used to spread malware. You will probably need 
 Download the Autocorrn .DOC file for your proofing language.
 
 Run the AutoCorrect macro. Choose "Backup" and save your existing AutoCorrect settings.
-**If you have entered your own AutoCorrect options and want to keep them** open the Autocorrn .DOC file and add them manually, in the correct alphabetical order. Save the .DOC file.
+**If you have entered your own AutoCorrect options and want to keep them** open the Autocorrn .DOC file and copy in your own word pairs from the backup document manually, in the correct alphabetical order. Save the .DOC file.
 
-Run the AutoCorrect macro. Choose "Restore" and browse to the Autocorrn .DOC file. **This will replace all existing AutoCorrect options** but it includes the default Microsoft AutoCorrect options.
+Run the AutoCorrect macro. Choose "Restore" and browse to the Autocorrn .DOC file. **This will replace all existing AutoCorrect options** but it does include the default Microsoft AutoCorrect options.
 
-Word will open, showing the Autocorrn .DOC file and the window will probably flash repeatedly as the AutoCorrect options are added. When you create a new document, the Autocorrn shortcuts like "nw" for "network", "perf" for "performance" and "defn" for "definition" will work.
+Word will open, showing the Autocorrn .DOC file and the window and status bar will probably flash repeatedly as the AutoCorrect options are added. When you next create a new document, the Autocorrn shortcuts like "nw" for "network", "perf" for "performance" and "defn" for "definition" will work.
 
 ## Deployment
 Office stores different AutoCorrect items for each proofing language installed. The UK English set of shortcuts and corrections is much larger but - assuming the spelling is the same - you can copy entries into another AutoCorrect backup to add them under another proofing langauge. (I plan to add many of the UK English shortcuts and corrections to the US English file.)
 
-If you don't like a specific AutoCorrect, use Ctrl-Z to undo it 
+If you don't like a specific AutoCorrect, use Ctrl-Z to undo it. If you don't like having Autocorrn at all, use the macro to restore the backup you took before adding the Autocorrn items. 
 
 ## Abbreviation tips
 A lot of the abbreviations are two letters: "sw" for software, "hw" for "hardware", "nw" for "network. There are plurals and verb forms like "nws" and "nws" for "networks" and "networking". Some are ambiguous: "fw" is "framework" so the abbrevation for "firewall" is "firew". I use an abbreviation style I developed at school for words ending in -ion and similar, where I just use -n and miss out many other letters, so "defn" for "definition", "fn" for "function", "orchn" for "orchestration", "sepn" for "separation" and of course "corrn" for "correction". Again, I combine these: "compat" becomes "comaptible" but "compaty" becomes "compatibility". Other abbreviations may be slang: "mobo" for "motherboard" and "convo" for "conversation". There is a preponderance of technical and IT terms. Most of the product name abbreviations are Microsoft-specific like "pbi" for "Power BI" but "k8" for "Kubernetes" saves a lot of time!  
 
 ## Contributing
 
-TBD Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests. 
-I don't plan to change any of the abbreviations I use: if you want to have "nw" corrected to "northwest", fork away!
-Suggestions: I've only created AutoCorrect entries in UK and US English. If you have a set of AutoCorrect entries in another proofing language, why not add them to Autocorrn?
+At this point, I don't have a process for accepting new entries for Autocorrn: if anyone is interesting in getting involved to help me do that, please get in touch. But I've only created AutoCorrect entries in UK and US English: if you have a set of AutoCorrect entries in another proofing language, I'd be happy to add them here or link to them.
 
 ## Versioning
 
-TBD
+TBD - I am still adding new abbreviations and corrections to AutoCorrect and will probably export a new set once a year
 
 ## Authors
 
-* **Mary Branscombe** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Mary Branscombe** [MaryPCBUK](https://github.com/marypcbuk)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
