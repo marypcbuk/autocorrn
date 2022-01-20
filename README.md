@@ -23,7 +23,7 @@ Download the Autocorrn .docx file for your proofing language.
 Run the AutoCorrect macro. Choose "Backup" and save your existing AutoCorrect settings.
 **If you have entered your own AutoCorrect options and want to keep them** open the Autocorrn .docx file and copy in your own word pairs from the backup document manually, in the correct alphabetical order. Save the .docx file.
 
-Run the AutoCorrect macro. Choose "Restore" and browse to the Autocorrn .docx file. **This will replace all existing AutoCorrect options** but it does include the default Microsoft AutoCorrect options. Office stores different AutoCorrect items for each proofing language installed but so far I have only been able to export from my default proofing language, UK English. The US English set of shortcuts and corrections has been edited to remove as many UK spelling variations as I could find but it oes not include any default US AutoCorrect entries that are not in the UK default. Whichever Autocorrn file you pick, it will replace all existing AutoCorrect options, so US users will definitely want to make sure to take a backup first and manually copy in any missing US entries.
+Run the AutoCorrect macro. Choose "Restore" and browse to the Autocorrn .docx file. **This will replace all existing AutoCorrect options** but it does include the default Microsoft AutoCorrect options. Office stores different AutoCorrect items for each proofing language installed but so far I have only been able to export from my default proofing language, UK English. The US English set of shortcuts and corrections has been edited to remove as many UK spelling variations as I could find but it does not include any default US AutoCorrect entries that are not in the UK default. Whichever Autocorrn file you pick, it will replace all existing AutoCorrect options, so US users will definitely want to make sure to take a backup first and manually copy in any missing US entries.
 
 Word will open and the window and status bar will probably flash repeatedly as the AutoCorrect options are added. When you next create a new document, the Autocorrn shortcuts like "nw" for "network", "perf" for "performance" and "defn" for "definition" will work.
 
@@ -36,7 +36,7 @@ A lot of the abbreviations are two letters: "sw" for software, "hw" for "hardwar
 ## Contributing
 
 At this point, I don't have a process for accepting individual new entries for Autocorrn: if anyone is interesting in getting involved to help me do that in the long term, please get in touch. 
-I'm looking for someone with a US English install of Office and no custom AutoCorrect options to run the AutoCorrect macro and take a backup so I can add those into the US English Autocorrn file so users don't have to do that manually.
+I'm looking for someone with a US English install of Office and no custom AutoCorrect options to run the AutoCorrect macro and take a backup so I can add those into the US English Autocorrn file so users don't have to do that manually. I also do not have a good process for updating the US English Autocorrn file so it is not currently being udpdated as I add new autocorrections to the UK English file, which is now about 12,000 entiries.
 I've only created AutoCorrect entries in UK and US English: if you have a set of AutoCorrect entries in another proofing language, I'd be happy to add them here or link to them.
 
 ## Versioning
